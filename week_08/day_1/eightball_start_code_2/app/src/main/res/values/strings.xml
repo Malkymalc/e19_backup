@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">eightball_start_code</string>
+    <string name="question_text">Ask a question</string>
+    <string name="shake_text">Shake the Ball</string>
+</resources>

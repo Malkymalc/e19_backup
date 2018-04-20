@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/navigation_eat"
+        android:icon="@drawable/ic_restaurant_black_24dp"
+        app:showAsAction="always"
+        android:title="@string/create" />
+
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="always"
+        android:title="@string/add" />
+
+    <item
+        android:id="@+id/navigation_stats"
+        android:icon="@drawable/ic_timeline_black_24dp"
+        app:showAsAction="always"
+        android:title="@string/data" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_event_note_black_24dp"
+        app:showAsAction="always"
+        android:title="@string/food_log" />
+
+</menu>
